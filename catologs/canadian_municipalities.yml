@@ -1,0 +1,8 @@
+sources:
+  municipalities:
+    description: Canadian municpalitiy information.
+    driver: csv
+    args:
+      urlpath: 'https://raw.githubusercontent.com/myles/notebooks/82f069959ced0823d92d736a7d7bfe4b72edadd2/Random/2017/12/2017-12-13-list-of-all-canadian-municipalities/list-of-canadian-municipalities.csv'
+    metadata:
+      origin_url: 'https://github.com/myles/notebooks/blob/82f069959ced0823d92d736a7d7bfe4b72edadd2/Random/2017/12/2017-12-13-list-of-all-canadian-municipalities/list-of-canadian-municipalities.csv'
