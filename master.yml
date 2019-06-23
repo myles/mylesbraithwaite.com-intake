@@ -1,0 +1,10 @@
+description: "Myles' Data Catalog"
+
+soruces:
+  
+  canadian_municipalities:
+    args:
+      path: catologs/canadian_municipalities.yml
+    description: 'Canadian Municpalitiy Information'
+    driver: intake.catalog.local.YAMLFileCatalog
+    metadata: {}
