@@ -1,2 +1,2 @@
-web: pipenv run intake-server --port $PORT catologs/*.yml
+web: pipenv run intake-server --port $PORT master.yml
 
